@@ -1,11 +1,20 @@
 # next-rainbowkit-starter
-
-A Next.js boilerplate dapp bootstrappepd with Rainbowkit, Wagmi, and ethers.js.
+A Next.js boilerplate dapp bootstrapped with Rainbowkit, Wagmi, and ethers.js. Comes with a button out of the box to connect your Ethereum account to the dapp.
 
 ## Getting Started
 
-First, run the development server:
+- First, create a new app on Alchemy, and add the API key to a `.env` file in the project root like:
+```
+ALCHEMY_ID=<YOUR_ALCHEMY_APP_API_KEY>
+```
+- Install the dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
+- Finally, run the development server:
 ```bash
 npm run dev
 # or
